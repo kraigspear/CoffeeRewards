@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		8488D43C1D764598004E50E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488D43B1D764598004E50E4 /* AppDelegate.swift */; };
-		8488D43E1D764598004E50E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488D43D1D764598004E50E4 /* ViewController.swift */; };
+		8488D43E1D764598004E50E4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488D43D1D764598004E50E4 /* MainViewController.swift */; };
 		8488D4411D764598004E50E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8488D43F1D764598004E50E4 /* Main.storyboard */; };
 		8488D4431D764598004E50E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8488D4421D764598004E50E4 /* Assets.xcassets */; };
 		8488D4461D764598004E50E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8488D4441D764598004E50E4 /* LaunchScreen.storyboard */; };
-		8488D4511D764598004E50E4 /* CoffeeRewardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488D4501D764598004E50E4 /* CoffeeRewardsTests.swift */; };
+		8488D4511D764598004E50E4 /* MainViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488D4501D764598004E50E4 /* MainViewModelTest.swift */; };
+		8488D4B21D764777004E50E4 /* QRLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8488D4A91D76467B004E50E4 /* QRLib.framework */; };
+		8488D4B51D764946004E50E4 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488D4B41D764946004E50E4 /* MainViewModel.swift */; };
+		8488D4E51D765746004E50E4 /* CoffeeService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8488D4E01D7655DC004E50E4 /* CoffeeService.framework */; };
+		84B5ED421D76CA3A00B29DEC /* ViewModelDelegateMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5ED411D76CA3A00B29DEC /* ViewModelDelegateMock.swift */; };
+		84B5ED441D76CA7300B29DEC /* QRCodeGeneratorableMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5ED431D76CA7300B29DEC /* QRCodeGeneratorableMock.swift */; };
+		84B5ED471D76CAED00B29DEC /* ServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5ED461D76CAED00B29DEC /* ServiceMock.swift */; };
+		84B5ED491D76CD5000B29DEC /* QRCode.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B5ED481D76CD5000B29DEC /* QRCode.png */; };
+		84B5ED4A1D76CE1D00B29DEC /* QRCode.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B5ED481D76CD5000B29DEC /* QRCode.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,19 +31,54 @@
 			remoteGlobalIDString = 8488D4371D764598004E50E4;
 			remoteInfo = CoffeeRewards;
 		};
+		8488D4A81D76467B004E50E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8488D4A31D76467A004E50E4 /* QRLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8488D4891D76467A004E50E4;
+			remoteInfo = QRLib;
+		};
+		8488D4AA1D76467B004E50E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8488D4A31D76467A004E50E4 /* QRLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8488D4921D76467A004E50E4;
+			remoteInfo = QRLibTests;
+		};
+		8488D4DF1D7655DC004E50E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8488D4DA1D7655DB004E50E4 /* CoffeeService.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8488D4C01D7655DB004E50E4;
+			remoteInfo = CoffeeService;
+		};
+		8488D4E11D7655DC004E50E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8488D4DA1D7655DB004E50E4 /* CoffeeService.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8488D4C91D7655DB004E50E4;
+			remoteInfo = CoffeeServiceTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8488D4381D764598004E50E4 /* CoffeeRewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeRewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8488D43B1D764598004E50E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8488D43D1D764598004E50E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8488D43D1D764598004E50E4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8488D4401D764598004E50E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8488D4421D764598004E50E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8488D4451D764598004E50E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8488D4471D764598004E50E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8488D44C1D764598004E50E4 /* CoffeeRewardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeRewardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8488D4501D764598004E50E4 /* CoffeeRewardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeRewardsTests.swift; sourceTree = "<group>"; };
+		8488D4501D764598004E50E4 /* MainViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelTest.swift; sourceTree = "<group>"; };
 		8488D4521D764598004E50E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8488D4A31D76467A004E50E4 /* QRLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QRLib.xcodeproj; path = QRLib/QRLib.xcodeproj; sourceTree = "<group>"; };
+		8488D4B41D764946004E50E4 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		8488D4DA1D7655DB004E50E4 /* CoffeeService.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CoffeeService.xcodeproj; path = CoffeeService/CoffeeService.xcodeproj; sourceTree = "<group>"; };
+		84B5ED411D76CA3A00B29DEC /* ViewModelDelegateMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelDelegateMock.swift; sourceTree = "<group>"; };
+		84B5ED431D76CA7300B29DEC /* QRCodeGeneratorableMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeGeneratorableMock.swift; sourceTree = "<group>"; };
+		84B5ED461D76CAED00B29DEC /* ServiceMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceMock.swift; sourceTree = "<group>"; };
+		84B5ED481D76CD5000B29DEC /* QRCode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QRCode.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8488D4E51D765746004E50E4 /* CoffeeService.framework in Frameworks */,
+				8488D4B21D764777004E50E4 /* QRLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +104,7 @@
 		8488D42F1D764598004E50E4 = {
 			isa = PBXGroup;
 			children = (
+				8488D4AC1D76468C004E50E4 /* Frameworks */,
 				8488D43A1D764598004E50E4 /* CoffeeRewards */,
 				8488D44F1D764598004E50E4 /* CoffeeRewardsTests */,
 				8488D4391D764598004E50E4 /* Products */,
@@ -77,9 +123,8 @@
 		8488D43A1D764598004E50E4 /* CoffeeRewards */ = {
 			isa = PBXGroup;
 			children = (
+				8488D4B31D764921004E50E4 /* Main */,
 				8488D43B1D764598004E50E4 /* AppDelegate.swift */,
-				8488D43D1D764598004E50E4 /* ViewController.swift */,
-				8488D43F1D764598004E50E4 /* Main.storyboard */,
 				8488D4421D764598004E50E4 /* Assets.xcassets */,
 				8488D4441D764598004E50E4 /* LaunchScreen.storyboard */,
 				8488D4471D764598004E50E4 /* Info.plist */,
@@ -90,10 +135,59 @@
 		8488D44F1D764598004E50E4 /* CoffeeRewardsTests */ = {
 			isa = PBXGroup;
 			children = (
-				8488D4501D764598004E50E4 /* CoffeeRewardsTests.swift */,
+				84B5ED481D76CD5000B29DEC /* QRCode.png */,
+				8488D4501D764598004E50E4 /* MainViewModelTest.swift */,
 				8488D4521D764598004E50E4 /* Info.plist */,
+				84B5ED451D76CAD300B29DEC /* Mocks */,
 			);
 			path = CoffeeRewardsTests;
+			sourceTree = "<group>";
+		};
+		8488D4A41D76467A004E50E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8488D4A91D76467B004E50E4 /* QRLib.framework */,
+				8488D4AB1D76467B004E50E4 /* QRLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8488D4AC1D76468C004E50E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8488D4DA1D7655DB004E50E4 /* CoffeeService.xcodeproj */,
+				8488D4A31D76467A004E50E4 /* QRLib.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8488D4B31D764921004E50E4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8488D43F1D764598004E50E4 /* Main.storyboard */,
+				8488D4B41D764946004E50E4 /* MainViewModel.swift */,
+				8488D43D1D764598004E50E4 /* MainViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		8488D4DB1D7655DB004E50E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8488D4E01D7655DC004E50E4 /* CoffeeService.framework */,
+				8488D4E21D7655DC004E50E4 /* CoffeeServiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B5ED451D76CAD300B29DEC /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				84B5ED411D76CA3A00B29DEC /* ViewModelDelegateMock.swift */,
+				84B5ED431D76CA7300B29DEC /* QRCodeGeneratorableMock.swift */,
+				84B5ED461D76CAED00B29DEC /* ServiceMock.swift */,
+			);
+			name = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +262,16 @@
 			mainGroup = 8488D42F1D764598004E50E4;
 			productRefGroup = 8488D4391D764598004E50E4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8488D4DB1D7655DB004E50E4 /* Products */;
+					ProjectRef = 8488D4DA1D7655DB004E50E4 /* CoffeeService.xcodeproj */;
+				},
+				{
+					ProductGroup = 8488D4A41D76467A004E50E4 /* Products */;
+					ProjectRef = 8488D4A31D76467A004E50E4 /* QRLib.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8488D4371D764598004E50E4 /* CoffeeRewards */,
@@ -175,6 +279,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8488D4A91D76467B004E50E4 /* QRLib.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = QRLib.framework;
+			remoteRef = 8488D4A81D76467B004E50E4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8488D4AB1D76467B004E50E4 /* QRLibTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = QRLibTests.xctest;
+			remoteRef = 8488D4AA1D76467B004E50E4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8488D4E01D7655DC004E50E4 /* CoffeeService.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CoffeeService.framework;
+			remoteRef = 8488D4DF1D7655DC004E50E4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8488D4E21D7655DC004E50E4 /* CoffeeServiceTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CoffeeServiceTests.xctest;
+			remoteRef = 8488D4E11D7655DC004E50E4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8488D4361D764598004E50E4 /* Resources */ = {
@@ -184,6 +319,7 @@
 				8488D4461D764598004E50E4 /* LaunchScreen.storyboard in Resources */,
 				8488D4431D764598004E50E4 /* Assets.xcassets in Resources */,
 				8488D4411D764598004E50E4 /* Main.storyboard in Resources */,
+				84B5ED4A1D76CE1D00B29DEC /* QRCode.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +327,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B5ED491D76CD5000B29DEC /* QRCode.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,8 +338,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8488D43E1D764598004E50E4 /* ViewController.swift in Sources */,
+				8488D43E1D764598004E50E4 /* MainViewController.swift in Sources */,
 				8488D43C1D764598004E50E4 /* AppDelegate.swift in Sources */,
+				8488D4B51D764946004E50E4 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +348,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8488D4511D764598004E50E4 /* CoffeeRewardsTests.swift in Sources */,
+				84B5ED441D76CA7300B29DEC /* QRCodeGeneratorableMock.swift in Sources */,
+				8488D4511D764598004E50E4 /* MainViewModelTest.swift in Sources */,
+				84B5ED421D76CA3A00B29DEC /* ViewModelDelegateMock.swift in Sources */,
+				84B5ED471D76CAED00B29DEC /* ServiceMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +551,7 @@
 				8488D4571D764598004E50E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8488D4581D764598004E50E4 /* Build configuration list for PBXNativeTarget "CoffeeRewardsTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +560,7 @@
 				8488D45A1D764598004E50E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

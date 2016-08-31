@@ -1,15 +1,15 @@
 //
-//  CoffeeRewardsTests.swift
-//  CoffeeRewardsTests
+//  QRLibTests.swift
+//  QRLibTests
 //
 //  Created by admin on 8/30/16.
 //  Copyright © 2016 Meijer. All rights reserved.
 //
 
 import XCTest
-@testable import CoffeeRewards
+@testable import QRLib
 
-class CoffeeRewardsTests: XCTestCase {
+class QRLibTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

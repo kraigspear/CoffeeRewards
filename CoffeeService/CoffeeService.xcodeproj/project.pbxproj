@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8488D4CA1D7655DB004E50E4 /* CoffeeService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8488D4C01D7655DB004E50E4 /* CoffeeService.framework */; };
+		8488D4CF1D7655DB004E50E4 /* CoffeeServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488D4CE1D7655DB004E50E4 /* CoffeeServiceTests.swift */; };
+		8488D4D11D7655DB004E50E4 /* CoffeeService.h in Headers */ = {isa = PBXBuildFile; fileRef = 8488D4C31D7655DB004E50E4 /* CoffeeService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8488D4E41D7655EE004E50E4 /* CoffeeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488D4E31D7655EE004E50E4 /* CoffeeService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8488D4CB1D7655DB004E50E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8488D4B71D7655DB004E50E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8488D4BF1D7655DB004E50E4;
+			remoteInfo = CoffeeService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8488D4C01D7655DB004E50E4 /* CoffeeService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoffeeService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8488D4C31D7655DB004E50E4 /* CoffeeService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoffeeService.h; sourceTree = "<group>"; };
+		8488D4C41D7655DB004E50E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8488D4C91D7655DB004E50E4 /* CoffeeServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8488D4CE1D7655DB004E50E4 /* CoffeeServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeServiceTests.swift; sourceTree = "<group>"; };
+		8488D4D01D7655DB004E50E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8488D4E31D7655EE004E50E4 /* CoffeeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8488D4BC1D7655DB004E50E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8488D4C61D7655DB004E50E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8488D4CA1D7655DB004E50E4 /* CoffeeService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8488D4B61D7655DB004E50E4 = {
+			isa = PBXGroup;
+			children = (
+				8488D4C21D7655DB004E50E4 /* CoffeeService */,
+				8488D4CD1D7655DB004E50E4 /* CoffeeServiceTests */,
+				8488D4C11D7655DB004E50E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8488D4C11D7655DB004E50E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8488D4C01D7655DB004E50E4 /* CoffeeService.framework */,
+				8488D4C91D7655DB004E50E4 /* CoffeeServiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8488D4C21D7655DB004E50E4 /* CoffeeService */ = {
+			isa = PBXGroup;
+			children = (
+				8488D4C31D7655DB004E50E4 /* CoffeeService.h */,
+				8488D4C41D7655DB004E50E4 /* Info.plist */,
+				8488D4E31D7655EE004E50E4 /* CoffeeService.swift */,
+			);
+			path = CoffeeService;
+			sourceTree = "<group>";
+		};
+		8488D4CD1D7655DB004E50E4 /* CoffeeServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				8488D4CE1D7655DB004E50E4 /* CoffeeServiceTests.swift */,
+				8488D4D01D7655DB004E50E4 /* Info.plist */,
+			);
+			path = CoffeeServiceTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8488D4BD1D7655DB004E50E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8488D4D11D7655DB004E50E4 /* CoffeeService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8488D4BF1D7655DB004E50E4 /* CoffeeService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8488D4D41D7655DB004E50E4 /* Build configuration list for PBXNativeTarget "CoffeeService" */;
+			buildPhases = (
+				8488D4BB1D7655DB004E50E4 /* Sources */,
+				8488D4BC1D7655DB004E50E4 /* Frameworks */,
+				8488D4BD1D7655DB004E50E4 /* Headers */,
+				8488D4BE1D7655DB004E50E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeService;
+			productName = CoffeeService;
+			productReference = 8488D4C01D7655DB004E50E4 /* CoffeeService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8488D4C81D7655DB004E50E4 /* CoffeeServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8488D4D71D7655DB004E50E4 /* Build configuration list for PBXNativeTarget "CoffeeServiceTests" */;
+			buildPhases = (
+				8488D4C51D7655DB004E50E4 /* Sources */,
+				8488D4C61D7655DB004E50E4 /* Frameworks */,
+				8488D4C71D7655DB004E50E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8488D4CC1D7655DB004E50E4 /* PBXTargetDependency */,
+			);
+			name = CoffeeServiceTests;
+			productName = CoffeeServiceTests;
+			productReference = 8488D4C91D7655DB004E50E4 /* CoffeeServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8488D4B71D7655DB004E50E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Meijer;
+				TargetAttributes = {
+					8488D4BF1D7655DB004E50E4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FUNW4GUS24;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					8488D4C81D7655DB004E50E4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FUNW4GUS24;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8488D4BA1D7655DB004E50E4 /* Build configuration list for PBXProject "CoffeeService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8488D4B61D7655DB004E50E4;
+			productRefGroup = 8488D4C11D7655DB004E50E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8488D4BF1D7655DB004E50E4 /* CoffeeService */,
+				8488D4C81D7655DB004E50E4 /* CoffeeServiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8488D4BE1D7655DB004E50E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8488D4C71D7655DB004E50E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8488D4BB1D7655DB004E50E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8488D4E41D7655EE004E50E4 /* CoffeeService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8488D4C51D7655DB004E50E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8488D4CF1D7655DB004E50E4 /* CoffeeServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8488D4CC1D7655DB004E50E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8488D4BF1D7655DB004E50E4 /* CoffeeService */;
+			targetProxy = 8488D4CB1D7655DB004E50E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8488D4D21D7655DB004E50E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8488D4D31D7655DB004E50E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8488D4D51D7655DB004E50E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FUNW4GUS24;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CoffeeService/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meijer.CoffeeService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8488D4D61D7655DB004E50E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FUNW4GUS24;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CoffeeService/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meijer.CoffeeService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8488D4D81D7655DB004E50E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FUNW4GUS24;
+				INFOPLIST_FILE = CoffeeServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meijer.CoffeeServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8488D4D91D7655DB004E50E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FUNW4GUS24;
+				INFOPLIST_FILE = CoffeeServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meijer.CoffeeServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8488D4BA1D7655DB004E50E4 /* Build configuration list for PBXProject "CoffeeService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8488D4D21D7655DB004E50E4 /* Debug */,
+				8488D4D31D7655DB004E50E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8488D4D41D7655DB004E50E4 /* Build configuration list for PBXNativeTarget "CoffeeService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8488D4D51D7655DB004E50E4 /* Debug */,
+				8488D4D61D7655DB004E50E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8488D4D71D7655DB004E50E4 /* Build configuration list for PBXNativeTarget "CoffeeServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8488D4D81D7655DB004E50E4 /* Debug */,
+				8488D4D91D7655DB004E50E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8488D4B71D7655DB004E50E4 /* Project object */;
+}
